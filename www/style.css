@@ -52,14 +52,14 @@
     }
     .img_wrapper img{
         padding-top: 30px !important;
-        width: 80vw !important;
+        width: 90vw !important;
         height: auto !important;
     }
     .subtitle{
         font-size: large !important;
     }
     .h1{
-        font-size: xl-large !important;
+        font-size: 15vw;
     }
 
     h2 {
@@ -88,6 +88,27 @@
     #up_button {
         width: 35px !important;
         height: 40px !important;
+    }
+
+    #mobbutton {
+        display: flex !important;
+        justify-content: center !important;
+
+    }
+    .primary_inputs {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    #submit{
+        display: none;
+    }
+    #clear, #copytext{
+        width: 30vw;
+    }
+
+    .nav-element a{
+        font-size: 2.8vw;
     }
 }
 
@@ -215,8 +236,8 @@ h2 {
 .switcher {
     background-color: var(--primary-gold);
     border: solid var(--primary-gold);
-    width: 1rem;
-    height: 0.7rem;
+    width: 12px;
+    height: 11px;
     margin: 0 0.2rem 0 0.2rem;
     border-radius: 100%;
     position: relative;
@@ -366,7 +387,7 @@ dev.translator_input {
 
 textarea {
     max-width: 400px !important;
-    color: white !important;
+    color: var(--primary-font-color) !important;
     width: 98%;
     max-height: 400px;
 }
@@ -417,7 +438,8 @@ textarea {
     position: fixed;
     left: 85%;
     bottom: 10%;
-    width: 5%;
+    min-width: 5vw;
+    max-width: 10vw;
     height: 5%;
     border: solid var(--third-font-color);
     border-radius: 30%;
