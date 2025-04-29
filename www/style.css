@@ -236,9 +236,9 @@ h2 {
 .switcher {
     background-color: var(--primary-gold);
     border: solid var(--primary-gold);
-    width: 12px;
+    width: 11px;
     height: 11px;
-    margin: 0 0.2rem 0 0.2rem;
+    margin: 0 0.15rem 0 0.15rem;
     border-radius: 100%;
     position: relative;
     z-index: 1;
